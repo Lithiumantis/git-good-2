@@ -264,7 +264,9 @@ Runner.Gameplay.prototype = {
 	
 	init: function(){
 		//initialize variables
-		this.player = 600;
+
+		this.player = null;
+		this.speed = 700;
 		this.landSpeed = 10;
 		this.buildingSpeed = this.landSpeed * 60;
 		this.speedCap = 22;
