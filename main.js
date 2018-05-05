@@ -277,6 +277,7 @@ Runner.Gameplay.prototype = {
 		this.laser = null;
 		this.fireballs = null;
 		this.fireball = null;
+		this.I_AM_A_GOD = true;
 	},
 	
 	preload: function(){
