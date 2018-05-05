@@ -24,7 +24,7 @@ Runner.Title.prototype = {
 		console.log('Title: preload');
 			
 		//display text
-		var title = this.add.text(this.world.centerX, this.world.height / 4, 'BLOCKADE RUNNER', {fontSize: '64px', fill: 'black'});
+		var title = this.add.text(this.world.centerX, this.world.height / 4, 'BLOCKADE RUNNER II', {fontSize: '64px', fill: 'black'});
 		title.anchor.setTo(0.5);
 		
 		var author = this.add.text(this.world.centerX, (this.world.height / 4) + 50, 'By Jonah Uyyek', {fontSize: '16px', fill: 'black'});
